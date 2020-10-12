@@ -1,10 +1,9 @@
 import React from 'react';
-import { Button } from 'react-native';
-import { StyleSheet, View, FlatList } from 'react-native';
+import { StyleSheet, View, Text } from 'react-native';
 
-const ColorScreen = () => {
+const TextScreen = () => {
     return <View>
-        <Button title="Add a Color" />
+        <Text>Text Screen</Text>
     </View>
 };
 
@@ -12,4 +11,4 @@ const styles = StyleSheet.create({
 
 });
 
-export default CounterScreen;
+export default TextScreen;
